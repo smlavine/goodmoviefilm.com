@@ -1,4 +1,4 @@
-# [goodmoviefilm.com]()
+# [goodmoviefilm.com](https://goodmoviefilm.com)
 
 This is a little website I threw together one night to express my
 opinion on the 2021 Disney film *Encanto*, which is that it is a ***GOOD
