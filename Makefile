@@ -16,7 +16,7 @@ build: $(BUILDDIR)
 
 deploy: build
 	@test $(deploy) || { echo 'Error: deploy must be set.'; exit 1; }
-	rsync -r --delete $(BUILDDIR) '$(deploy):$(REMOTEPATH)'
+	rsync --rsh='ssh -o StrictHostKeyChecking=no' -r --delete $(BUILDDIR) '$(deploy):$(REMOTEPATH)'
 
 clean:
 	rm -rf $(BUILDDIR)
