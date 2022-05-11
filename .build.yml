@@ -1,0 +1,20 @@
+image: alpine/edge
+triggers:
+  - action: email
+    condition: failure
+    to: Sebastian LaVine <mail@smlavine.com>
+packages:
+  - rsync
+sources:
+  - https://git.sr.ht/~smlavine/goodmoviefilm.com
+environment:
+  deploy: goodmoviefilm.com@smlavine.com
+secrets:
+  - 93eb7f11-6229-4c6b-9165-4e07d100a4eb
+tasks:
+  - build: |
+      cd goodmoviefilm.com
+      make
+  - deploy: |
+      cd goodmoviefilm.com
+      make deploy
