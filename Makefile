@@ -3,22 +3,22 @@
 SRC = src/index.html
 
 BUILDDIR = build/
-TARBALL = goodmoviefilm.com.tar.gz
 
-build: $(TARBALL)
+REMOTEPATH = /var/www/goodmoviefilm.com
 
-$(TARBALL): $(SRC)
+$(BUILDDIR): $(SRC)
 	@# `|| true` because make will exit on a failure
 	@[ -d $(BUILDDIR) ] && rm -r $(BUILDDIR) || true
 	mkdir $(BUILDDIR)
 	cp $(SRC) $(BUILDDIR)
-	tar czf $(TARBALL) -C $(BUILDDIR) .
 
-deploy: $(TARBALL)
-	@echo PLACEHOLDER FOR DEPLOY
+build: $(BUILDDIR)
+
+deploy: build
+	@test $(deploy) || { echo 'Error: deploy must be set.'; exit 1; }
+	rsync -r --delete $(BUILDDIR) '$(deploy):$(REMOTEPATH)'
 
 clean:
-	rm -f $(TARBALL)
 	rm -rf $(BUILDDIR)
 
 .PHONY: build deploy clean
