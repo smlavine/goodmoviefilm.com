@@ -52,7 +52,7 @@ htmlquotes
 <nav>
 <a href="https://smlavine.com">https://smlavine.com</a> · All opinions expressed on this page are fact
 </nav>
-<footer>
+</footer>
 
 </body>
 
