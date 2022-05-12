@@ -51,7 +51,8 @@ htmlquotes
 <footer style="bottom: 0%">
 <hr>
 <nav>
-<a href="https://smlavine.com">https://smlavine.com</a> · All opinions expressed on this page are fact
+<a href="https://smlavine.com">https://smlavine.com</a>
+<span> · All opinions expressed on this page are fact</span>
 </nav>
 </footer>
 
