@@ -4,6 +4,7 @@ triggers:
     condition: failure
     to: Sebastian LaVine <mail@smlavine.com>
 packages:
+  - m4
   - rsync
 sources:
   - https://git.sr.ht/~smlavine/goodmoviefilm.com
