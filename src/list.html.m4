@@ -8,7 +8,7 @@ define(`new', `<h1><b><a class="ref" href="`$2'">`$1'</a></b> <small>is a</small
 
 define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 
-wiki(`Cycling', `Cycling', `2022-05-11')
+wiki(`Cycling', `Cycling', `2022-05-07')
 wiki(`Doctor Strange in the Multiverse of Madness', `Doctor_Strange_in_the_Multiverse_of_Madness', `2022-05-05')
 wiki(`Deadpool', `Deadpool_(film)', `2022-04-29')
 wiki(`The Dark Side of the Moon', `The_Dark_Side_of_the_Moon', `2022-04-24')
