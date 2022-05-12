@@ -10,7 +10,7 @@ $(BUILDDIR): $(SRC)
 	@# `|| true` because make will exit on a failure
 	@[ -d $(BUILDDIR) ] && rm -r $(BUILDDIR) || true
 	mkdir $(BUILDDIR)
-	m4 src/index.html.m4 > build/index.html
+	m4 src/index.html.m4 | sed '/^$$/d' > build/index.html
 
 build: $(BUILDDIR)
 
