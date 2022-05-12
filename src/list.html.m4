@@ -22,3 +22,6 @@ wiki(`Kirby&apos;s Epic Yarn', `Kirby%27s_Epic_Yarn', `2022-01-31')
 wiki(`Mario Kart Wii', `Mario_Kart_Wii', `2022-01-19')
 wiki(`Revolver', `Revolver_(Beatles_album)', `2022-01-14')
 wiki(`Encanto', `Encanto_(film)', `2021-12-31')
+
+undefine(`new')
+undefine(`wiki')
