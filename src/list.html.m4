@@ -8,6 +8,8 @@ define(`new', `<h1><b><a class="ref" href="`$2'">`$1'</a></b> <small>is a</small
 
 define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 
+wiki(`Coco', `Coco_(2017_film)', `2022-09-04')
+wiki(`Cars 3', `Cars_3', `2022-09-04')
 wiki(`Cars 2', `Cars_2', `2022-09-03')
 wiki(`Cars', `Cars_(film)', `2022-09-02')
 wiki(`Team Fortress 2', `Team_Fortress_2', `2022-06-26 but also most of the last 8 years')
