@@ -8,6 +8,7 @@ define(`new', `<h1><b><a class="ref" href="`$2'">`$1'</a></b> <small>is a</small
 
 define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 
+wiki(`Dark Red', `Steve_Lacy&apos;s_Demo', `2022-10-24')
 wiki(`Harry Potter and the Order of the Phoenix', `Harry_Potter_and_the_Order_of_the_Phoenix_(film)', `2022-10-23')
 wiki(`The Princess and the Frog', `The_Princess_and_the_Frog', `2022-10-11')
 wiki(`Harry Potter and the Goblet of Fire', `Harry_Potter_and_the_Goblet_of_Fire_(film)', `2022-09-16')
