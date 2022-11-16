@@ -8,6 +8,7 @@ define(`new', `<h1><b><a class="ref" href="`$2'">`$1'</a></b> <small>is a</small
 
 define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 
+wiki(`Meliora', `Meliora_(album)', `2022-11-16')
 wiki(`Prequelle', `Prequelle', `2022-11-14')
 wiki(`IMPERA', `Impera', `2022-11-13')
 wiki(`Marvin&apos;s Marvelous Mechanical Museum', `Marvin&apos;s_Marvelous_Mechanical_Museum_(album)', `2022-10-25')
