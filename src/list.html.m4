@@ -8,6 +8,7 @@ define(`new', `<h1><b><a class="ref" href="`$2'">`$1'</a></b> <small>is a</small
 
 define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 
+new(`RIT Players&apos; 2022 production of <i>Something Rotten!</i>', `https://web.archive.org/web/20221119153826/https://campusgroups.rit.edu/ritplayers/mammamia/', `2022-11-18')
 wiki(`Meliora', `Meliora_(album)', `2022-11-16')
 wiki(`Prequelle', `Prequelle', `2022-11-14')
 wiki(`IMPERA', `Impera', `2022-11-13')
