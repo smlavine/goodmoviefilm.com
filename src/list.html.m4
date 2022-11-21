@@ -8,7 +8,10 @@ define(`new', `<h1><b><a class="ref" href="`$2'">`$1'</a></b> <small>is a</small
 
 define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 
-<div style="font-size: larger">new(`Disney Channel&apos;s Theme: A History Mystery', `https://www.youtube.com/watch?v=b_rjBWmc1iQ', `2022-11-21')</div>
+dnl For an entry of particular note, importance, or quality.
+define(`big', `<div style="font-size: larger">`$1'</div>')
+
+big(new(`Disney Channel&apos;s Theme: A History Mystery', `https://www.youtube.com/watch?v=b_rjBWmc1iQ', `2022-11-21'))
 new(`RIT Players&apos; 2022 production of <i>Something Rotten!</i>', `https://web.archive.org/web/20221119153826/https://campusgroups.rit.edu/ritplayers/mammamia/', `2022-11-18')
 wiki(`Meliora', `Meliora_(album)', `2022-11-16')
 wiki(`Prequelle', `Prequelle', `2022-11-14')
@@ -18,7 +21,7 @@ wiki(`Dark Red', `Steve_Lacy&apos;s_Demo', `2022-10-24')
 wiki(`Harry Potter and the Order of the Phoenix', `Harry_Potter_and_the_Order_of_the_Phoenix_(film)', `2022-10-23')
 wiki(`The Princess and the Frog', `The_Princess_and_the_Frog', `2022-10-11')
 wiki(`Harry Potter and the Goblet of Fire', `Harry_Potter_and_the_Goblet_of_Fire_(film)', `2022-09-16')
-<div style="font-size: larger">wiki(`Harry Potter and the Prisoner of Azkaban', `Harry_Potter_and_the_Prisoner_of_Azkaban_(film)', `2022-09-14')</div>
+big(wiki(`Harry Potter and the Prisoner of Azkaban', `Harry_Potter_and_the_Prisoner_of_Azkaban_(film)', `2022-09-14'))
 wiki(`Harry Potter and the Chamber of Secrets', `Harry_Potter_and_the_Chamber_of_Secrets_(film)', `2022-09-09')
 wiki(`Harry Potter and the Sorcerer&apos;s Stone', `Harry_Potter_and_the_Philosopher&apos;s_Stone_(film)', `2022-09-05')
 wiki(`Jaws', `Jaws_(film)', `2022-09-05')
@@ -28,7 +31,7 @@ wiki(`Cars 2', `Cars_2', `2022-09-03')
 wiki(`Cars', `Cars_(film)', `2022-09-02')
 wiki(`Over the Hedge', `Over_the_Hedge_(film)', `2022-08-16')
 wiki(`Team Fortress 2', `Team_Fortress_2', `2022-06-26 but also most of the last 8 years')
-<div style="font-size: larger">new(`Donating to Planned Parenthood', `https://www.plannedparenthood.org/get-involved/other-ways-give', `2022-06-24')</div>
+big(new(`Donating to Planned Parenthood', `https://www.plannedparenthood.org/get-involved/other-ways-give', `2022-06-24'))
 wiki(`The Wall', `The_Wall', `2022-06-11')
 wiki(`Abbey Road', `Abbey_Road', `2022-05-14')
 wiki(`Rome', `Rome_(TV_series)', `2022-05-08')
@@ -48,3 +51,4 @@ wiki(`Encanto', `Encanto_(film)', `2021-12-31')
 
 undefine(`new')
 undefine(`wiki')
+undefine(`big')
