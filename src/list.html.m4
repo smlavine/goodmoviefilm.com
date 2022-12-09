@@ -12,7 +12,7 @@ dnl For an entry of particular note, importance, or quality.
 define(`big', `<div style="font-size: larger">`$1'</div>')
 
 new(`Die in the Dungeon', `https://alarts.itch.io/die-in-the-dungeon', `2022-12-01')
-wiki(`Harry Potter and the Deathly Hallows -- Part 1', `Harry_Potter_and_the_Deathly_Hallows_–_Part_1', `2022-11-27')
+wiki(`Harry Potter and the Deathly Hallows – Part 1', `Harry_Potter_and_the_Deathly_Hallows_–_Part_1', `2022-11-27')
 wiki(`Harry Potter and the Half-Blood Prince', `Harry_Potter_and_the_Half-Blood_Prince_(film)', `2022-11-26')
 big(new(`Disney Channel&apos;s Theme: A History Mystery', `https://www.youtube.com/watch?v=b_rjBWmc1iQ', `2022-11-21'))
 new(`RIT Players&apos; 2022 production of <i>Something Rotten!</i>', `https://web.archive.org/web/20221119153826/https://campusgroups.rit.edu/ritplayers/mammamia/', `2022-11-18')
