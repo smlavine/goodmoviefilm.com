@@ -11,6 +11,7 @@ define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 dnl For an entry of particular note, importance, or quality.
 define(`big', `<div style="font-size: larger">`$1'</div>')
 
+wiki(`Jungle Cruise', `Jungle_Cruise_(film)', `2022-12-23')
 wiki(`Elf', `Elf_(film)', `2022-12-08')
 wiki(`Harry Potter and the Deathly Hallows – Part 2', `Harry_Potter_and_the_Deathly_Hallows_–_Part_2', `2022-12-06')
 new(`Die in the Dungeon', `https://alarts.itch.io/die-in-the-dungeon', `2022-12-01')
