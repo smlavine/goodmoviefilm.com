@@ -11,6 +11,7 @@ define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 dnl For an entry of particular note, importance, or quality.
 define(`big', `<div style="font-size: larger">`$1'</div>')
 
+new(`2022', `https://smlavine.com/blog/2022', `2023-01-01')
 new(`goodmoviefilm.com', `https://goodmoviefilm.com', `2022-12-31. one year \o/')
 wiki(`Christmas', `Christmas', `2022-12-25')
 wiki(`Jungle Cruise', `Jungle_Cruise_(film)', `2022-12-23')
