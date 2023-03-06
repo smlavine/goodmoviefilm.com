@@ -11,6 +11,7 @@ define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 dnl For an entry of particular note, importance, or quality.
 define(`big', `<div style="font-size: larger">`$1'</div>')
 
+wiki(`Glass Onion', `Glass_Onion:_A_Knives_Out_Mystery', `2023-03-04')
 wiki(`House', `House_(1977_film)', `2023-02-04')
 wiki(`The Bad Guys', `The_Bad_Guys_(film)', `2023-01-17')
 wiki(`New York City', `New_York_City', `2023-01-09')
