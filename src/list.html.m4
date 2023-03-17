@@ -11,7 +11,7 @@ define(`wiki', `new(`$1', `https://en.wikipedia.org/wiki/$2', `$3')')
 dnl For an entry of particular note, importance, or quality.
 define(`big', `<div style="font-size: larger">`$1'</div>')
 
-new(`The Second City Toronto&apos;s 87th Mainstage Revue, Skyline&apos;s The Limit', `https://www.secondcity.com/shows/toronto/the-second-city-mainstage-87th-revue/', `2023-03-14. But frankly, the improv they did at the very end was funnier than anything in the actual show.')
+new(`The Second City Toronto&apos;s 87th Mainstage Revue, Skyline&apos;s The Limit', `https://www.secondcity.com/shows/toronto/the-second-city-mainstage-87th-revue/', `2023-03-15. But frankly, the improv they did at the very end was funnier than anything in the actual show.')
 wiki(`Puss in Boots: The Last Wish', `Puss_in_Boots_The_Last_Wish', `2023-03-13')
 wiki(`Glass Onion', `Glass_Onion:_A_Knives_Out_Mystery', `2023-03-04')
 wiki(`House', `House_(1977_film)', `2023-02-04')
