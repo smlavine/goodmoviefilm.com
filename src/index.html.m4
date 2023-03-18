@@ -8,25 +8,6 @@ htmlquotes
 <!DOCTYPE html>
 <!-- Source at https://git.sr.ht/~smlavine/goodmoviefilm.com -->
 
-<style>
-  .ref:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-
-  .ref:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-
-  .ref:hover {
-    color: blue;
-    background-color: transparent;
-  }
-</style>
-
 <html lang="en">
 
 <head>
@@ -34,11 +15,12 @@ htmlquotes
 <meta name="viewport" content="width=device-width, initial-scale=0.7">
 <title>Everything's a moviefilm if you squint at it long enough</title>
 <link rel="shortcut icon" href="https://smlavine.com/images/favicon.jpg"/>
+<link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 
 <body>
 
-<main style="text-align: center">
+<main>
 </m4quote>
 
 changequote
@@ -48,7 +30,7 @@ htmlquotes
 <m4quote>
 </main>
 
-<footer style="bottom: 0%">
+<footer>
 <hr>
 <nav>
 <a href="https://smlavine.com">https://smlavine.com</a>

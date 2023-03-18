@@ -1,6 +1,6 @@
 .POSIX:
 
-SRC = src/index.html.m4 src/list.html.m4
+SRC = src/index.html.m4 src/list.html.m4 src/style.css
 
 BUILDDIR = build/
 
@@ -10,6 +10,7 @@ $(BUILDDIR): $(SRC)
 	@if [ -d "$(BUILDDIR)" ]; then rm -r $(BUILDDIR); fi
 	mkdir $(BUILDDIR)
 	m4 src/index.html.m4 | sed '/^$$/d' > build/index.html
+	cp src/style.css build/style.css
 
 build: $(BUILDDIR)
 
