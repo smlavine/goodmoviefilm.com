@@ -2,23 +2,82 @@ main {
   text-align: center;
 }
 
-.ref:link {
+footer {
+  bottom: 0%;
+}
+
+b.gmf {
+  color: green;
+}
+
+/**
+ * Each entry shall be a div of some class that defines its style.
+ */
+
+/**
+ * .good
+ */
+.good > h1 > b > a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
-.ref:visited {
+.good > h1 > b > a:visited {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
-.ref:hover {
+.good > h1 > b > a:hover {
   color: blue;
   background-color: transparent;
 }
 
-footer {
-  bottom: 0%;
+/**
+ * .great
+ */
+.great {
+  font-size: larger;
+}
+
+.great > h1 > b > a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.great > h1 > b > a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.great > h1 > b > a:hover {
+  color: blue;
+  background-color: transparent;
+}
+
+/**
+ * .outstanding
+ */
+.outstanding {
+  font-size: larger;
+}
+
+.outstanding > h1 > b > a:link {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.outstanding > h1 > b > a:visited {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.outstanding > h1 > b > a:hover {
+  color: blue;
+  background-color: transparent;
 }

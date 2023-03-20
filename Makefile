@@ -1,16 +1,17 @@
 .POSIX:
 
-SRC = src/index.html.m4 src/list.html.m4 src/style.css
+SRC = entries-to-html.py \
+	src/footer.html src/header.html src/style.css src/index.tsv
 
-BUILDDIR = build/
+BUILDDIR = public/
 
 REMOTEPATH = /var/www/goodmoviefilm.com
 
 $(BUILDDIR): $(SRC)
 	@if [ -d "$(BUILDDIR)" ]; then rm -r $(BUILDDIR); fi
 	mkdir $(BUILDDIR)
-	m4 src/index.html.m4 | sed '/^$$/d' > build/index.html
-	cp src/style.css build/style.css
+	./entries-to-html.py < src/index.tsv | cat src/header.html - src/footer.html > $(BUILDDIR)/index.html
+	cp src/style.css $(BUILDDIR)/style.css
 
 build: $(BUILDDIR)
 
