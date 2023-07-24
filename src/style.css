@@ -81,27 +81,3 @@ b.gmf {
   color: blue;
   background-color: transparent;
 }
-
-/**
- * .barbie
- */
-.barbie {
-  font-size: larger;
-}
-
-.barbie > h1 > b > a:link {
-  color: #F638A2;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.barbie > h1 > b > a:visited {
-  color: #F638A2;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.barbie > h1 > b > a:hover {
-  color: blue;
-  background-color: transparent;
-}
